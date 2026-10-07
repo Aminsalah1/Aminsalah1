@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="490" height="347" viewBox="0 0 490 347" role="img" aria-label="Aminsalah1 info card">
 <style>
 text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px;fill:#c9d1d9}
-.l{opacity:0;animation:in .4s ease-out forwards}
+.l{animation:in .4s ease-out backwards}
 @keyframes in{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:none}}
 .cur{animation:blink 1s steps(1) infinite}
 @keyframes blink{50%{opacity:0}}
-@media (prefers-reduced-motion:reduce){.l{animation:none;opacity:1}.cur{animation:none}}
+@media (prefers-reduced-motion:reduce){.l,.cur{animation:none}}
 </style>
 <rect x=".5" y=".5" width="489" height="346" rx="10" fill="#0d1117" stroke="#30363d"/>
 <path d="M.5 10.5a10 10 0 0 1 10-10h469a10 10 0 0 1 10 10v18H.5z" fill="#161b22"/>
