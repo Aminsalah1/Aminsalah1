@@ -1,16 +1,20 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**Aminsalah1/Aminsalah1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h3><code>aminsalah1@github ~ $ ./contributions.sh</code></h3>
 
-Here are some ideas to get you started:
+<img src="./contrib-heatmap.svg" width="860" alt="Animated contribution heatmap" />
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br>
+<br>
+
+<table>
+  <tr>
+    <td>
+      <img src="./info-card.svg" width="490" alt="Info card" />
+    </td>
+  </tr>
+</table>
+
+<br>
+
+</div>
