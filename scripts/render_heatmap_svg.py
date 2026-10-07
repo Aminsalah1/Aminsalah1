@@ -63,13 +63,14 @@ def main():
         f'viewBox="0 0 {width} {height}" role="img" aria-label="Contribution heatmap">',
         "<style>",
         f"text{{font-family:{FONT};fill:#8b949e;font-size:10px}}",
-        ".c{opacity:0;transform-box:fill-box;transform-origin:center;"
-        "animation:slide .45s cubic-bezier(.2,.8,.2,1) forwards}",
+        # Visible by default; the animation only plays on top (fill-mode backwards).
+        ".c{transform-box:fill-box;transform-origin:center;"
+        "animation:slide .45s cubic-bezier(.2,.8,.2,1) backwards}",
         "@keyframes slide{from{opacity:0;transform:translate(-10px,-10px) scale(.4)}"
         "to{opacity:1;transform:translate(0,0) scale(1)}}",
-        ".f{opacity:0;animation:fade .6s ease-out 1.4s forwards}",
-        "@keyframes fade{to{opacity:1}}",
-        "@media (prefers-reduced-motion:reduce){.c,.f{animation:none;opacity:1}}",
+        ".f{animation:fade .6s ease-out 1.4s backwards}",
+        "@keyframes fade{from{opacity:0}to{opacity:1}}",
+        "@media (prefers-reduced-motion:reduce){.c,.f{animation:none}}",
         "</style>",
         f'<rect width="{width}" height="{height}" rx="10" fill="#0d1117"/>',
     ]
